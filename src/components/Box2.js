@@ -2,10 +2,10 @@ import React from "react";
 
 function Box2(props){
 
-    const [age, increaseAge]=React.useState(0);
+    const [age, increaseAge]=React.useState(props.data.age);
 
     const setAge=()=>{
-        increaseAge(age+1)
+        increaseAge(props.data.age+=1)
     }
 
     return(

@@ -8,9 +8,9 @@ function App() {
     <div className="App">
         <Navbar className="Nav"/>
         <Box1/>
-        <Box2 data={{name:"Wesley",  color:"Lime"}}/>
-        <Box2 data={{name:"Alex", color:"Black"}}/>
-        <Box2 data={{name:"Max",  color:"Orange"}}/>
+        <Box2 data={{name:"Chris",  color:"Blue", age:23}}/>
+        <Box2 data={{name:"Kyle", color:"Red", age:22}}/>
+        <Box2 data={{name:"Nick",  color:"Green", age:18}}/>
     </div>
   );
 }
